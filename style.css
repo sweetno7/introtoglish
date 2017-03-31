@@ -39,9 +39,6 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 /* Sizes */
 
-.bloc-lg{
-	padding:100px 50px;
-}
 .bloc-md{
 	padding:50px;
 }
@@ -129,18 +126,18 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	border-color:rgba(0,0,0,.3);
 }
 
-/* Row Margin Offsets */
-
-.voffset{
-	margin-top:30px;
-}
-
 /* Bloc text custom styling */
 
 #bloc-1 h1{
 	font-weight: 700;
 	font-family: Helvetica;
 	font-size: 50px;
+}
+#bloc-3 h3{
+	font-size: 60px;
+}
+#bloc-3 h1{
+	font-size: 70px;
 }
 #bloc-3 h2{
 	font-size: 27px;
@@ -150,30 +147,21 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-family: Helvetica;
 	font-size: 50px;
 }
-#bloc-5 p{
+#bloc-6 p{
 	font-size: 16px;
 }
-#bloc-6 h1{
+#bloc-7 h1{
 	font-weight: 700;
 	font-family: Helvetica;
 	font-size: 50px;
 }
-#bloc-7 p{
+#bloc-9 p{
 	font-size: 16px;
-}
-#bloc-8 h1{
-	font-weight: 700;
-	font-family: Helvetica;
-	font-size: 50px;
 }
 #bloc-10 h1{
 	font-weight: 700;
 	font-family: Helvetica;
 	font-size: 50px;
-}
-#bloc-11 h3{
-	font-size: 18px;
-	line-height: 25px;
 }
 #bloc-11 h3{
 	font-size: 18px;
@@ -183,26 +171,25 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-family: Helvetica;
 	font-size: 50px;
 }
-#bloc-13 p{
-	font-size: 16px;
+#bloc-13 h2{
+	font-size: 60px;
+}
+#bloc-13 h3{
+	font-size: 18px;
+	line-height: 25px;
+}
+#bloc-13 h3{
+	font-size: 18px;
 }
 #bloc-14 h1{
 	font-weight: 700;
 	font-family: Helvetica;
 	font-size: 50px;
 }
-#bloc-15 p{
+#bloc-16 p{
 	font-size: 16px;
 }
-#bloc-16 h1{
-	font-weight: 700;
-	font-family: Helvetica;
-	font-size: 50px;
-}
-#bloc-17 p{
-	font-size: 16px;
-}
-#bloc-18 h1{
+#bloc-17 h1{
 	font-weight: 700;
 	font-family: Helvetica;
 	font-size: 50px;
@@ -215,46 +202,80 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-family: Helvetica;
 	font-size: 50px;
 }
-#bloc-21 p{
+#bloc-22 p{
 	font-size: 16px;
 }
-#bloc-22 h1{
+#bloc-23 h1{
 	font-weight: 700;
 	font-family: Helvetica;
 	font-size: 50px;
 }
-#bloc-23 p{
+#bloc-25 p{
 	font-size: 16px;
 }
-#bloc-24 h1{
+#bloc-26 h1{
 	font-weight: 700;
 	font-family: Helvetica;
 	font-size: 50px;
 }
-#bloc-27 h1{
+#bloc-28 p{
+	font-size: 16px;
+}
+#bloc-29 h1{
 	font-weight: 700;
 	font-family: Helvetica;
 	font-size: 50px;
 }
-#bloc-30 h1{
+#bloc-31 p{
+	font-size: 16px;
+}
+#bloc-32 h1{
 	font-weight: 700;
 	font-family: Helvetica;
 	font-size: 50px;
 }
-#bloc-33 h1{
+#bloc-33 h2{
+	font-size: 60px;
+}
+#bloc-34 h1{
 	font-weight: 700;
 	font-family: Helvetica;
 	font-size: 50px;
+}
+#bloc-35 h2{
+	font-size: 60px;
 }
 #bloc-36 h1{
 	font-weight: 700;
 	font-family: Helvetica;
 	font-size: 50px;
 }
-#bloc-39 h1{
+#bloc-37 h2{
+	font-size: 60px;
+}
+#bloc-38 h1{
 	font-weight: 700;
 	font-family: Helvetica;
 	font-size: 50px;
+}
+#bloc-39 h2{
+	font-size: 60px;
+}
+#bloc-40 h1{
+	font-weight: 700;
+	font-family: Helvetica;
+	font-size: 50px;
+}
+#bloc-41 h2{
+	font-size: 60px;
+}
+#bloc-42 h1{
+	font-weight: 700;
+	font-family: Helvetica;
+	font-size: 50px;
+}
+#bloc-43 h2{
+	font-size: 60px;
 }
 
 /* = NavBar
@@ -421,6 +442,9 @@ button{
 .icon-lg{
 	font-size:60px!important;
 }
+.icon-xl{
+	font-size:100px!important;
+}
 
 
 
@@ -520,22 +544,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 /* Button colour styles */
 
-.btn-alizarin-crimson{
-	background:#DA2B2C;
-	color:#FFFFFF!important;
-}
-.btn-alizarin-crimson:hover{
-	background:#ae2223;
-	color:#FFFFFF!important;
-}
-.btn-dark-cerulean{
-	background:#084676;
-	color:#FFFFFF!important;
-}
-.btn-dark-cerulean:hover{
-	background:#06385e;
-	color:#FFFFFF!important;
-}
 .btn-jonquil{
 	background:#F3D35E;
 	color:rgba(0,0,0,.5)!important;
@@ -543,6 +551,16 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .btn-jonquil:hover{
 	background:#c2a94b;
 	color:rgba(0,0,0,.5)!important;
+}
+/* Icon colour styles */
+
+.icon-alizarin-crimson{
+	color:#DA2B2C!important;
+	border-color:#DA2B2C!important;
+}
+.icon-dark-cerulean{
+	color:#084676!important;
+	border-color:#084676!important;
 }
 
 /* Bloc image backgrounds */
